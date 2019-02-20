@@ -1,0 +1,132 @@
+% ****** Start of file aipsamp.tex ******
+%
+%   This file is part of the AIP files in the AIP distribution for REVTeX 4.
+%   Version 4.1 of REVTeX, October 2009
+%
+%   Copyright (c) 2009 American Institute of Physics.
+%
+%   See the AIP README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+% 
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex  aipsamp
+%  2)  bibtex aipsamp
+%  3)  latex  aipsamp
+%  4)  latex  aipsamp
+%
+% Use this file as a source of example code for your aip document.
+% Use the file aiptemplate.tex as a template for your document.
+\documentclass[%
+ aip,
+ % onecolumn,
+% jmp,
+% bmf,
+% sd,
+ % rsi,
+ amsmath,amssymb,
+%preprint,%
+ reprint,%
+%author-year,%
+%author-numerical,%
+% Conference Proceedings
+floatfix,
+% tikz,
+]{revtex4-1}
+
+\usepackage{graphicx}% Include figure files
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{tikz}
+\usetikzlibrary{arrows,decorations.markings,decorations.pathmorphing, patterns,shapes}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+
+\begin{document}
+\preprint{AIP/123-QED}
+
+\title[]{The Busch Helical Method: \\ Measuring the Ratio of an Electron's Charge to Mass}
+% Force line breaks with \\
+
+\author{Jared Baur and Ben Sappey}
+ % \altaffiliation[Also at ]{Physics Department, XYZ University.}%Lines break automatically or can be forced with \\
+% \author{Ben Sappey}%
+% \affiliation{ 
+% Authors' institution and/or address%\\This line break forced with \textbackslash\textbackslash
+% }%
+
+\date{\today}% It is always \today, today,
+             %  but any date may be explicitly specified
+
+
+\begin{abstract}
+
+	Write abstract here.
+
+\end{abstract}
+
+\maketitle
+
+
+\onecolumngrid
+
+\section{\label{sec:level1}Objective}
+
+	Measure the charge-to-mass ratio of the electron using the Busch Helical Method.
+
+\section{\label{sec:level2}Introduction}
+
+In 1922, Busch developed a method of measuring the ratio of an electron's charge to its mass. This method involved focusing a divergent beam of electrons via a magnetic field. The electrons travel through a cathode ray tube in a specific trajectory. The trajectory of an electron in the presence of a magnetic field, when the electron is not moving parallel to the field, is in a helical motion. For mathematical purposes, this helical motion can be described as traveling along the surface of a cylinder. The electrons start from a hot cathode at the base of the tube. They pass through an anode with a velocity that depends on the potential difference between the cathode and the anode. This potential difference is called the "accelerating voltage". The applied magnetic field in the solenoid cause the beam of electrons to travel in the previously mentioned helical motion, completing a certain number of loops until hitting the fluorescent screen on the end of the cathode ray tube. The result from this process is a light that is emitted from the screen that changes with size as the magnetic field is changed. The original Busch design for this experiment had auxiliary magnets strategically placed around the cathode ray tube (instead of a solenoid) in order to produce the desired magnetic field\cite{Stranathan1942}.
+
+In order to obtain the ratio of an electron's charge to its mass, let us consider a single electron moving with velocity $v$ as it exits the anode with an angle $\theta$ to the axis of the cathode ray tube. The magnetic field will influence the electron's trajectory, however only in the motion that is perpendicular to the magentic field. Thus, the longitudinal component of the velocity, $v \cos{\theta}$ will remain constant and the perpendicular component, $v \sin{\theta}$ will vary. The electron will go through a helical motion around the axis of the tube, all while traveling down the tube at a constant velocity. It will then pass through the center axis as it completes one helical revolution. The electron's perpendicular velocity component can be expressed as
+
+\begin{equation}
+	v \sin{\theta} = \frac{m(v \sin{\theta})^2}{eHR}
+\end{equation}
+ 
+\noindent where $H$ is the magnetic field, $m$ is the mass of the electron, $e$ is the charge of the electron, and $R$ is the radius of the helical path taken by the electron. The time $t$ for the electron to complete one revolution of this helix is expressed in Equation 2.
+
+\begin{equation}
+	t = \frac{2 \pi m}{H e}
+\end{equation}
+
+\noindent Solving for $R$ in either of these equations and plugging into the other will give a simplified form for the time $t$ of one revolution.
+
+\begin{equation}
+	t = \frac{2 \pi m}{H e}
+\end{equation}
+
+\noindent Since Equation 3 is independent of the perpendicular velocity, all electrons, regardless of longitudinal velocity, will complete one revolution in the same amount of time. If all electrons sent through the cathode have the same velocity (influenced by the accelerating voltage), then they will hit the fluorescent screen at the same time, thus creating a focused image on the screen. The time for the electrons to travel from the anode to the screen is expressed in Equation 4. In this equation, $L$ is the distance from the anode to the fluorescent screen.
+
+\begin{equation}
+	t = \frac{L}{v \cos{\theta}}
+\end{equation}
+
+\noindent When the magnetic field is adjusted so that there is a focused point on the screen, the time for the electron to reach the screen and the time for it to complete one revolution are equal. Thus, Equation 3 and 4 can be set equal to one another. Solving for the ratio $e/m$ gives equation 5. The velocity of the electron can be found by analyzing the kinetic energy $V e = 1/2 m v^2$, where $V$ is the accelerating voltage.
+
+\begin{equation}
+	\frac{e}{m} = \frac{8 \pi V \cos^2{\theta}}{H^2 L^2}
+\end{equation}
+
+
+
+\section{\label{sec:level3}Apparatus and Methods}
+
+	The apparatus consists of a cathode ray tube and a solenoid. The cathode ray tube emits electrons with the assistance of a high voltage power supply. The cathode ray tube is placed in the center of the solenoid with the axes of the tube and solenoid aligned.
+
+\section{\label{sec:level4}Data Analysis}
+
+\section{\label{sec:level5}Conclusion}
+
+\nocite{*}
+\bibliography{main}% Produces the bibliography via BibTeX.
+
+
+\end{document}
+%
+% ****** End of file aipsamp.tex ******
