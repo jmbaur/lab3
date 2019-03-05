@@ -57,6 +57,11 @@
   }\href@noop {} {\emph {\bibinfo {title} {The Particles of Modern Physics}}}\
   (\bibinfo  {publisher} {Blakiston},\ \bibinfo {year} {1942})\BibitemShut
   {NoStop}%
+\bibitem [{oxy(2018)}]{oxymanual}%
+  \BibitemOpen
+  \href@noop {} {\emph {\bibinfo {title} {The Measurement of e/m by the Busch
+  Helical Method}}},\ \bibinfo {organization} {Occidental College Physics
+  Department} (\bibinfo {year} {2018})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Tipler}\ and\ \citenamefont
   {Llewellyn}(1978)}]{Tipler1978}%
   \BibitemOpen
@@ -70,11 +75,6 @@
   {} {\emph {\bibinfo {title} {An Introduction to Error Analysis: The Study of
   Uncertainties in Physical Measurements, 2nd Ed.}}}\ (\bibinfo  {publisher}
   {University Science Books},\ \bibinfo {year} {1996})\BibitemShut {NoStop}%
-\bibitem [{oxy(2018)}]{oxymanual}%
-  \BibitemOpen
-  \href@noop {} {\emph {\bibinfo {title} {The Measurement of e/m by the Busch
-  Helical Method}}},\ \bibinfo {organization} {Occidental College Physics
-  Department} (\bibinfo {year} {2018})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hoag}\ and\ \citenamefont {Korff}(1948)}]{Hoag1948}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibnamefont {Hoag}}\ and\ \bibinfo

@@ -44,6 +44,7 @@ floatfix,
 \usetikzlibrary{arrows,decorations.markings,decorations.pathmorphing, patterns,shapes}
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
+\usepackage{float}
 %\usepackage[mathlines]{lineno}% Enable numbering of text and display math
 %\linenumbers\relax % Commence numbering lines
 
@@ -85,6 +86,12 @@ In 1922, Busch developed a method of measuring the ratio of an electron's charge
 
 In order to obtain the ratio of an electron's charge to its mass, let us consider a single electron moving with velocity $v$ as it exits the anode with an angle $\theta$ to the axis of the cathode ray tube. The magnetic field will influence the electron's trajectory, however only in the motion that is perpendicular to the magentic field. Thus, the longitudinal component of the velocity, $v \cos{\theta}$ will remain constant and the perpendicular component, $v \sin{\theta}$ will vary. The electron will go through a helical motion around the axis of the tube, all while traveling down the tube at a constant velocity. It will then pass through the center axis as it completes one helical revolution. The electron's perpendicular velocity component can be expressed as
 
+\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{electrontrajectory.png}
+		\caption{Path of electrons in the solenoid. Electrons leave the cathode ray anode with a velocity $v$ at an angle $\beta$.}
+	\end{figure}
+
 \begin{equation}
 	v \sin{\theta} = \frac{m(v \sin{\theta})^2}{eHR}
 \end{equation}
@@ -117,27 +124,29 @@ In order to obtain the ratio of an electron's charge to its mass, let us conside
 
 \section{\label{sec:level3}Apparatus and Methods}
 
+*to-do: name the different apparatus models*
+
 The apparatus consists of a cathode ray tube and a solenoid. The cathode ray anode emits electrons with the assistance of a high voltage power supply. The cathode ray tube is placed in the center of the solenoid with the axes of the tube and solenoid aligned. An accelerating voltage is applied to the cathode ray tube that accelerates electrons in a beam. A voltage applied to the intensity control grid reduces the current of the emitted electron beam. The solenoid provides a curved, helical path for the electron beam to follow in the cathode tube. The solenoid's current is reversible; when reversed, the magnetic field is reversed and the helical orientation of the electron beam is flipped (clockwise or counterclockwise).
 
-	\begin{figure}
-		\centering
-		\includegraphics[scale=0.5]{electrontrajectory.png}
-		\caption{Path of electrons in the solenoid. Electrons leave the cathode ray anode with a velocity $v$ at an angle $\beta$.}
-	\end{figure}
-
-	\begin{figure}
+	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.5]{cathoderaytube.png}
 		\caption{Cathode ray tube schematic. Electrons are emitted from the anode and travel a distance $L$ through the cathode tube.}
 	\end{figure}
+Before beginning the experiment, measurements of the apparatus were made in order to obtain the values needed for calculations. The cathode ray's length $L$ was measured (used in Equation 5) with the use of a cathetometer. The cathetometer was chosen to make this measurement since it can easily be used to measure distances of objects where the measuring tool cannot be placed close to the point of interest. The cathetometer was used to measure the distance from the anode to the end of the tube (length $L$ shown in Figure 2). This length is defined as the distance from the anode to the phosphor screen that is the point at which the electrons are illuminated in the cathode tube. The phosphor screen is actually embedded underneath a glass of measurable thickness, which also required the use of a cathetometer to measure. In order to measure the glass thickness, the pinpoint of a thumbtack was placed on the surface of the glass. The microscope on the cathetometer was focused on this pinpoint and the reading on the cathetometer scale was taken. Next, the focus of the microscope was adjusted to the phosphor screen under the glass. Once the phosphor was in focus, the cathetometer scale reading was noted. The difference between these two readings represent the thickness of the glass, which was then used to calculate the actual length $L$ of the cathode ray tube (from the anode to the phosphor screen).
+
+The magnetic field in a solenoid is given by Equation 6, where $H$ is the magnitude of the magnetic field, $n$ is the density of turns for the length of the solenoid (number of turns per unit length), $I$ is the current, and $\theta$ is the angle subtended at the center of the solenoid by the outer edge of the solenoid and its axis\cite{oxymanual}. The turn density was measured by counting the total number of turns for the entire solenoid, then dividing this count by the total length of the solenoid.
+
+\begin{equation}
+	H = nI\cos{\theta}
+\end{equation}
+
 \section{\label{sec:level4}Data Analysis}
 
 \section{\label{sec:level5}Conclusion}
 
 \nocite{*}
 \bibliography{main}% Produces the bibliography via BibTeX.
-
-
 \end{document}
 %
 % ****** End of file aipsamp.tex ******
