@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex lab3"] 1551844097 "lab3.aux" "lab3.bbl" "lab3" 1551851787
+["bibtex lab3"] 1551851955 "lab3.aux" "lab3.bbl" "lab3" 1551852114
   "./aipnum4-1.bst" 1551516648 71945 7cd378302a037b260485973f72a35dcd ""
-  "lab3.aux" 1551851786 1673 650b18f933d03748c8ef8d5efe26c535 ""
-  "lab3Notes.bib" 1551851786 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
+  "lab3.aux" 1551852114 1673 650b18f933d03748c8ef8d5efe26c535 ""
+  "lab3Notes.bib" 1551852114 69 7fe5a2a5b0ca4322ba6c6ddff14c7fd3 ""
   "main.bib" 1551516648 928 b31efc91837832d5d0aeda2c67ea3b02 ""
   (generated)
   "lab3.bbl"
   "lab3.blg"
-["pdflatex"] 1551851786 "lab3.tex" "lab3.pdf" "lab3" 1551851787
+["pdflatex"] 1551852113 "lab3.tex" "lab3.pdf" "lab3" 1551852114
   "/home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk" 1551558545 19908 a3761ecaabf0b1b3759689a271496166 ""
   "/home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0900.600pk" 1551558544 18348 6eee7f56acc11412da2e5b36ff6f97ec ""
   "/home/jared/.texlive2018/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1440.600pk" 1551558545 34652 709b2fe12b093f56a47e6615a5b895be ""
@@ -189,13 +189,13 @@
   "aip4-1.rtx" 1551516648 60820 bf92ecfa6582cd56ac89ec391de9aa41 ""
   "cathoderaytube.png" 1551516648 44734 22038be13ac2b8c89167ef7cac99c3c4 ""
   "electrontrajectory.png" 1551516648 30316 a19ed4f1cb47e209b1364bd76200fc85 ""
-  "lab3.aux" 1551851786 1673 650b18f933d03748c8ef8d5efe26c535 ""
-  "lab3.bbl" 1551844097 3760 d49fdddf235081913b7dac2b9a2799da "bibtex lab3"
-  "lab3.tex" 1551851786 12530 fcae36b9bd2d248971126a7e3a72c343 ""
+  "lab3.aux" 1551852114 1673 650b18f933d03748c8ef8d5efe26c535 ""
+  "lab3.bbl" 1551851955 3760 d49fdddf235081913b7dac2b9a2799da "bibtex lab3"
+  "lab3.tex" 1551852112 12594 450189e88a1eda4adcc704a992b0398a ""
   "revsymb4-1.sty" 1551516648 5190 0f4247f7a75d2f8239f5a0c0c404bea3 ""
   "revtex4-1.cls" 1551516648 199797 cabc32ae3f68475cabbf37ac7498f20b ""
   (generated)
   "lab3.aux"
+  "lab3Notes.bib"
   "lab3.pdf"
   "lab3.log"
-  "lab3Notes.bib"
